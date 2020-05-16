@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "app.standard.com"
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionCode 103
+        versionName "1.0.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def outputFile = output.outputFile
+            def fileName
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                if (variant.buildType.name.equals('release')) {//如果是release包
+                    fileName = "PayDemo_V${defaultConfig.versionName}_${releaseTime()}.apk"
+                } else if (variant.buildType.name.equals('debug')) {//如果是debug包
+                    fileName = "PayDemo_V${defaultConfig.versionName}_${releaseTime()}_.apk"
+                }
+                outputFileName = fileName
+            }
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.android.support:support-v4:25.4.0'
+    implementation 'com.android.support:design:25.4.0'
+    implementation "com.android.support:appcompat-v7:25.4.0"
+}
+
+def outputVersion(def versionName) {
+    def svnRevison = getSvnRevision()
+    def version = "V$versionName-R$svnRevison"
+    new File("./app/src/main/assets/version.ver").withWriter('utf-8') { writer ->
+        writer.write(version)
+    }
+
+}
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHH", TimeZone.getTimeZone("GMT+08"))
+}
+//def getSvnRevision() {
+//    ISVNOptions options = SVNWCUtil.createDefaultOptions(true)
+//    SVNClientManager clientManager = SVNClientManager.newInstance(options)
+//    SVNStatusClient statusClient = clientManager.getStatusClient()
+//    SVNStatus status = statusClient.doStatus(projectDir, false)
+//    SVNRevision revision = status.getRevision()
+//    return revision.getNumber()
+//}
+

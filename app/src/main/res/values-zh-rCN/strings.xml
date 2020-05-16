@@ -1,0 +1,268 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">PayDemo</string>
+
+    <string name="log_in">登录</string>
+    <string name="log_in_id">帐号  </string>
+    <string name="log_in_password">密码  </string>
+    <string name="log_in_ok">确定</string>
+    <string name="log_in_error_id">帐号错误</string>
+    <string name="log_in_error_password">密码错误</string>
+
+    <string name="initialize">初始化</string>
+    <string name="initialize_para_error">参数错误</string>
+    <string name="initialize_para_initing">正在初始化......</string>
+    <string name="initialize_init_failed">初始化失败</string>
+    <string name="is_exit_app">是否退出应用？ </string>
+
+    <string name="warnings">警告</string>
+    <string name="warnings_code">警告码: </string>
+    <string name="warnings_message">警告信息: </string>
+    <string name="warnings_message_auth_entication_err">身份验证失败: </string>
+    <string name="warnings_message_device_err">设备存在异常: </string>
+    <string name="warnings_get_failed">获取警告失败</string>
+
+    <string name="title_consume">消费</string>
+    <string name="flow_scan_pay">扫码支付</string>
+    <string name="app_settings">设置</string>
+    <string name="system_settings">系统设置</string>
+    <string name="system_informatin">系统信息</string>
+    <string name="production_inspection">生产检测</string>
+    <string name="app_not_install_hint">该应用未安装！</string>
+    <string name="pay_app_error">支付应用异常，请重新登录</string>
+    <string name="pay_app_para_set_error">支付应用消费参数未设置成功</string>
+
+
+    <string name="amount_input">输入金额</string>
+    <string name="amount_input_tip">交易金额:</string>
+    <string name="amount_input_cancle">取消</string>
+    <string name="amount_input_search_card">银行卡</string>
+    <string name="amount_input_scan">扫码</string>
+    <string name="amount_input_skip">跳过</string>
+
+    <string name="card_num_confirm_no">卡号： </string>
+    <string name="card_num_confirm_ok">确定</string>
+    <string name="card_num_confirm_cancle">取消</string>
+
+    <string name="please_input_pin">请输入密码:</string>
+    <string name="pin_tip_amount">金额:</string>
+    <string name="pin_tip_card_num">卡号:</string>
+
+    <string name="scan_error_code">错误码:</string>
+
+    <string name="setting_activity_name">设置</string>
+
+    <string name="term_para">商户参数设置</string>
+    <string name="merchine_id">商户号 </string>
+    <string name="merchine_name">商户名 </string>
+    <string name="term_id">终端号 </string>
+    <string name="term_para_cancle">取消</string>
+    <string name="term_para_save">保存</string>
+
+    <string name="communication_para">通讯参数设置</string>
+    <string name="host_ip_1">主机IP  </string>
+    <string name="host_port_1">主机端口 </string>
+    <string name="host_ip_2">备用主机IP </string>
+    <string name="host_port_2">备用主机端口 </string>
+    <string name="tpdu_value">TPDU </string>
+    <string name="tip_mer_id_changed_error">商户号必须为15位 </string>
+    <string name="tip_term_id_changed_error">终端号必须为8位 </string>
+    <string name="communication_para_cancle">取消</string>
+    <string name="communication_para_save">保存</string>
+
+    <string name="trad_manager">交易管理设置</string>
+    <string name="trad_is_no_pin">非接是否免密</string>
+    <string name="trad_no_pin_max_amount">免密金额</string>
+    <string name="trad_is_no_sign">非接是否免签</string>
+    <string name="trad_para_cancle">取消</string>
+    <string name="trad_para_save">保存</string>
+
+    <string name="online_init">联机初始化</string>
+    <string name="please_input_secure_password">请输入安全密码</string>
+    <string name="input_secure_password_error">安全密码错误</string>
+    <string name="please_input_init_password">请输入初始密码</string>
+    <string name="input_init_password_error">初始密码错误</string>
+    <string name="online_init_cancle">取消</string>
+    <string name="online_init_ok">确定</string>
+
+    <string name="ic_capk_para_download">IC卡公钥、参数下载</string>
+    <string name="ic_capk_para_download_success">IC卡公钥、参数下载成功</string>
+
+    <string name="tmk_tpk_tak_trk_download">TMK、TAK、TPK、TRK下载</string>
+    <string name="tmk_download_succ">TMK下载成功</string>
+    <string name="tmk_download_err">TMK下载失败</string>
+    <string name="tak_download_succ">TAK下载成功</string>
+    <string name="tak_download_err">TAK下载失败</string>
+    <string name="tpk_download_succ">TPK下载成功</string>
+    <string name="tpk_download_err">TPK下载失败</string>
+    <string name="trk_download_succ">TRK下载成功</string>
+    <string name="trk_download_err">TRK下载失败</string>
+
+    <string name="other_setting">其他设置</string>
+    <string name="import_key">导入密钥</string>
+    <string name="text_param_trans">参数传递</string>
+    <string name="text_status_upload">状态上传</string>
+    <string name="text_sign_up">签到</string>
+    <string name="text_ic_capk_download">IC公钥下载</string>
+    <string name="text_ic_para_download">IC参数下载</string>
+    <string name="text_echo_test">"回响测试"</string>
+    <string name="text_consume">"消费"</string>
+    <string name="text_consume_positive">"消费冲正"</string>
+    <string name="text_scan">"扫码支付"</string>
+
+    <string name="device_info_default">未知</string>
+    <string name="device_info_hardware">硬件信息</string>
+    <string name="device_info_vendor">厂商名称: </string>
+    <string name="device_info_model">终端型号: </string>
+    <string name="device_info_uniqueCode">终端序列号: </string>
+    <string name="device_info_hardware_ver">硬件版本: </string>
+    <string name="device_info_kernel_ver">内核版本: </string>
+    <string name="device_info_rom_ver">ROM版本: </string>
+    <string name="device_info_firmware_ver">固件版本: </string>
+    <string name="device_info_secure_firmware_ver">安全固件版本: </string>
+    <string name="device_info_ksn">KSN号: </string>
+    <string name="device_info_imsi">IMSI号: </string>
+    <string name="device_info_imer">IMEI号: </string>
+
+    <string name="software_info_software">软件信息</string>
+    <string name="software_info_os_version">OS版本: </string>
+    <string name="software_info_android_version">Android版本: </string>
+    <string name="software_info_lkl_version">拉卡拉接口版本: </string>
+    <string name="software_info_lkl_to_android_version">拉卡拉对Android系统定制规范版本: </string>
+    <string name="software_info_app_version">应用版本: </string>
+
+    <string name="other_info">其他</string>
+    <string name="other_info_save_path">获取存储路径</string>
+    <string name="other_info_sim_iccId">SIM卡的ICCID</string>
+    <string name="other_info_silent_install_app">静默安装App</string>
+    <string name="other_info_set_apn">设置APN</string>
+    <string name="other_info_update_system_time">更新系统时间</string>
+    <string name="other_info_firmware_upgrade">固件升级</string>
+    <string name="other_info_firmware_update">固件更新</string>
+    <string name="other_info_firmware_update_status">查询固件更新状态</string>
+    <string name="other_info_reboot">重启</string>
+
+    <string name="trans_amount">交易金额： ￥</string>
+    <string name="search_card_rf_priority_more">插卡或刷卡</string>
+    <string name="search_card_rf"><!--请挥卡\n-->把卡放在终端上进行挥卡</string>
+    <string name="search_card_ic"><!--请插卡\n-->IC卡请从终端右侧插卡</string>
+    <string name="search_card_msr"><!--请刷卡\n-->磁条卡请在刷卡槽刷卡</string>
+
+    <string name="search_card_error_msr_read">读卡失败,请重新操作</string>
+    <string name="search_card_error_msr_is_ic">IC卡，请插卡</string>
+    <string name="search_card_error_ic">读卡失败,请刷卡</string>
+    <string name="search_card_error_electric_card">该卡为纯电子现金卡，本机不支持电子现金交易</string>
+
+    <string name="search_card_trans_result_reject">交易拒绝</string>
+    <string name="search_card_trans_result_stop">交易终止</string>
+    <string name="search_card_trans_result_fallback">FALLBACK</string>
+    <string name="search_card_trans_result_other_ui">采用其他界面</string>
+    <string name="search_card_trans_result_others">其他</string>
+
+    <string name="card_number_input">卡号确认</string>
+    <string name="card_number_confirm_tip">请确认卡号</string>
+    <string name="card_number">卡号：</string>
+    <string name="card_number_amount">金额：</string>
+    <string name="card_number_cancle">取消</string>
+    <string name="card_number_confirm">确定</string>
+
+    <string name="socket_proc_commu">通讯</string>
+    <string name="socket_proc_status_ing">正在处理</string>
+    <string name="socket_proc_status_conning">正在连接,请稍后...</string>
+    <string name="socket_proc_status_sending">正在发送,请稍后...</string>
+    <string name="socket_proc_status_receing">正在接收,请稍后...</string>
+    <string name="socket_proc_detail_emv_capk">正在查询IC卡公钥</string>
+    <string name="socket_proc_detail_emv_capk_download">正在下载IC卡公钥[<xliff:g id="number">%1$d</xliff:g>]</string>
+    <string name="socket_proc_detail_emv_capk_download_success">IC卡公钥下载成功</string>
+    <string name="socket_proc_detail_emv_capk_download_failed">IC卡公钥下载失败</string>
+    <string name="socket_proc_detail_emv_para">正在查询IC卡参数</string>
+    <string name="socket_proc_detail_emv_para_download">正在下载IC卡参数[<xliff:g id="number">%1$d</xliff:g>]</string>
+    <string name="socket_proc_detail_emv_para_download_success">IC卡参数下载成功</string>
+    <string name="socket_proc_detail_emv_para_download_failed">IC卡参数下载失败</string>
+
+    <string name="result_error_unkown">未知错误</string>
+    <string name="result_error_ip_or_port">IP或端口号错误</string>
+    <string name="result_error_conn">连接失败</string>
+    <string name="result_error_send">发送失败</string>
+    <string name="result_error_rece">接收失败</string>
+    <string name="result_error_rece_time_out">接收超时</string>
+    <string name="result_sucess">成功</string>
+    <string name="result_sucess_online_init">联机初始化成功</string>
+    <string name="result_failed_online_init">联机初始化失败</string>
+    <string name="result_sucess_sign_up">签到成功</string>
+    <string name="result_failed_sign_up">签到失败</string>
+    <string name="result_sucess_para_trans">参数传递成功</string>
+    <string name="result_sucess_status_upload">状态上送成功</string>
+    <string name="result_sucess_consume">交易成功</string>
+    <string name="result_sucess_consume_positive">冲正成功</string>
+    <string name="result_sucess_consume_amount">交易金额</string>
+    <string name="result_sucess_consume_type">交易类型</string>
+    <string name="result_sucess_consume_cardnum">交易卡号</string>
+    <string name="result_sucess_consume_vouchernum">交易凭证号</string>
+    <string name="result_sucess_consume_referencenum">交易参考号</string>
+    <string name="result_sucess_consume_operatornum">操作员号</string>
+    <string name="result_sucess_consume_time">交易时间</string>
+
+    <string name="result_sucess_scan">交易成功</string>
+    <string name="result_sucess_scan_amount">交易金额</string>
+    <string name="result_sucess_scan_type">交易类型</string>
+    <string name="result_sucess_scan_pay_num">支付帐号</string>
+    <string name="result_sucess_scan_trad_num">交易单号</string>
+    <string name="result_sucess_scan_referencenum">交易参考号</string>
+    <string name="result_sucess_scan_operatornum">操作员号</string>
+    <string name="result_sucess_scan_time">交易时间</string>
+
+    <string name="result_exit">退出</string>
+    <string name="result_print">打印</string>
+    <string name="result_print_more">是否打印商户联和银行联？</string>
+    <string name="result_print_success">打印结束！</string>
+    <string name="result_need_paper">请放入打印纸并继续！</string>
+    <string name="result_check_paper">请检查是否有打印纸！</string>
+    <string name="result_remove_ic_card">请移除IC卡</string>
+    <string name="result_dialog_ok">确定</string>
+    <string name="result_dialog_cancle">取消</string>
+
+    <string name="dialog_cancle">取消</string>
+    <string name="dialog_ok">确定</string>
+    <string name="init_again">重新初始化</string>
+
+    <string name="print_purchase_order">POS签购单</string>
+    <string name="print_transaction_documents">========交易凭证========</string>
+    <string name="print_version">版本:140429</string>
+    <string name="print_business_name">商户名:进贤门店—测试3</string>
+    <string name="print_business_number">商户号:990605055336000</string>
+    <string name="print_terminal_number">终端号:00000008 操作员:01</string>
+    <string name="print_acquirer">收单机构:48210001</string>
+    <string name="print_card_number">卡号:</string>
+    <string name="print_transaction_type">交易类型:消费</string>
+    <string name="print_validity">有效期:20/12 批次号:000001</string>
+    <string name="print_document_number">凭证号:000031  授权号:204001</string>
+    <string name="print_reference_no">参考号:153530205002</string>
+    <string name="print_time">时间:</string>
+    <string name="print_amount">金额:</string>
+    <string name="print_dotted_line">--------------------------------</string>
+    <string name="print_ticket_number">交易单号：111703370000009862 B</string>
+    <string name="print_cardholder_signature">持卡人签名：</string>
+    <string name="print_confirm_transaction">本人确认以上交易,同意将其记入本账户</string>
+
+    <string name="print_ticket_number_scan">交易单号:111703370000013969</string>
+    <string name="print_reference_no_scan">交易参考号:0516432598</string>
+    <string name="print_transaction_type_scan">交易类型:扫码支付</string>
+    <string name="print_no_password_scan">无需密码/无需签名</string>
+    <string name="print_notice_scan">须知:支付成功，请留意资金变化</string>
+    <string name="qr_code_auto_scan_notification">将二维码放入框内，即可自动扫描</string>
+    <string name="qr_code_notification">提示</string>
+    <string name="qr_code_camera_not_open">您的相机功能好像没有打开哦~去\"设置>隐私>相机\"设置一下吧</string>
+    <string name="qr_code_positive_button_know">知道了</string>
+    <string name="qr_code_positive_button_confirm">确认</string>
+    <string name="qr_code_could_not_read_qr_code_from_picture">没有读出图片中的链接，换张图片试试吧~</string>
+    <string name="qr_code_could_not_read_qr_code_from_scanner">对不起，无法打开扫出的内容</string>
+    <string name="qr_code_camera_not_found">未检测到相机</string>
+    <string name="qc_code_close">关闭</string>
+    <string name="app_version">应用版本</string>
+
+
+    <string name="qr_code_open_flash_light">打开闪光灯</string>
+    <string name="qr_code_close_flash_light">关闭闪光灯</string>
+
+
+</resources>
